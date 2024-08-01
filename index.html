@@ -3,46 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Information</title>
+    <title>My Personal Webpage</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 40px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
         }
-        .personal-info {
-            max-width: 600px;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            background-color: #f9f9f9;
-        }
-        .personal-info h1 {
+        header {
+            background-color: #4CAF50;
+            color: white;
             text-align: center;
+            padding: 1em 0;
         }
-        .personal-info p {
-            margin: 10px 0;
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .personal-info label {
-            font-weight: bold;
+        h1 {
+            color: #4CAF50;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="personal-info">
-        <h1>Personal Information</h1>
-        <p>
-            <label>Name:</label> John Doe
-        </p>
-        <p>
-            <label>Address:</label> 1234 Elm Street, Springfield, IL, 62701
-        </p>
-        <p>
-            <label>Email:</label> john.doe@example.com
-        </p>
-        <p>
-            <label>Phone:</label> (555) 123-4567
-        </p>
+    <header>
+        <h1>My Personal Webpage</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! My name is Michael Chang. I am now creating my own webpage. I am a little bit depressed rn due to many random fxxking things. Welcome to my personal webpage where you can learn more about me and connect with me on social media.</p>
+        </section>
+        <section>
+            <h2>Connect with Me</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/yourchannel" target="_blank">My YouTube Channel</a></li>
+                <li><a href="https://www.facebook.com/yourprofile" target="_blank">My Facebook Profile</a></li>
+            </ul>
+        </section>
     </div>
 </body>
 </html>
